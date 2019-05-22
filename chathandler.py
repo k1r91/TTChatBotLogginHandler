@@ -20,8 +20,6 @@ class TTChatBotLoggingHandler(StreamHandler):
         # to use this bot you have to obtain chat_id, where bot will send log messages, the appropriate method is below
         # this is optional for your environment, enter <you proxy here> if you have a proxy
         self.url = 'https://botapi.tamtam.chat/'
-        os.environ['http_proxy'] = 'http://url-proxy.megafon.ru:3128'
-        os.environ['https_proxy'] = 'https://url-proxy.megafon.ru:3128'
 
     def emit(self, record):
         msg = self.format(record)
