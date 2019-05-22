@@ -1,0 +1,4 @@
+{
+  "access_token": "<your token here, to obtain see https://dev.tamtam.chat/>",
+  "chat_id": "<to obtain chat_id see the appropriate method in chanthandler.py>"
+}

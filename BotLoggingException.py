@@ -1,0 +1,2 @@
+class BotLoggingException(Exception):
+    pass
